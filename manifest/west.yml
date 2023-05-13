@@ -1,0 +1,9 @@
+manifest:
+  projects:
+    - name: zephyr
+      revision: main
+      url: https://github.com/zephyrproject-rtos/zephyr
+      west-commands: scripts/west-commands.yml
+      import:
+        name-allowlist:
+          - hal_espressif
